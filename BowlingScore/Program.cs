@@ -14,6 +14,9 @@ namespace BowlingScore
             int ballOne = 0;
             int ballTwo = 0;
             int frameScore = 0;
+            int[] ballOnePins = new int[10];
+            int[] ballTwoPins = new int[10];
+            int ballThree = 0;
             int[] score = new int[10];
             for(int i = 1; i<10; i++)
             {
